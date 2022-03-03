@@ -29,7 +29,7 @@ public class TC001 {
 	@Test
 	public void senddata()
 	{
-		
+		//hrm login
 		HrmLogin log = new HrmLogin(driver);
 		log.Hrmlogin("Admin", "admin123");
 	}
